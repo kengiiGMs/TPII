@@ -6,11 +6,6 @@
 #Data: 23/02/2024
 #Descrição: Aplicação do padrão GoF - Criacional - FactoryMethod desenvolvido como exemplo na aula.
 #--------------------------------------------------------------------------------------------------
-#____________________________
-#Controle de Versão:
-#1.0.0 - Aprendendo a Utilizar o FactoryMethod com JavaScript
-#1.0.1 - Aprendendo a Utilizar o FactoryMethod com Python
-#____________________________
 
 # Classe Base de Veiculos
 class Veiculo:

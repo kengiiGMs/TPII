@@ -8,14 +8,6 @@ Nome: Kaiki Kenji
 Data: 24/02/2024
 Descrição: Aplicação do padrão GoF - Criacional - FactoryMethod em Java (Desafio proposto pelo Professor)
 --------------------------------------------------------------------------------------------------
-
-____________________________
-Controle de Versão:
-1.0.0 - Aprendendo a Utilizar o FactoryMethod com JavaScript
-1.0.1 - Aprendendo a Utilizar o FactoryMethod com Python
-1.0.2 - Aprendendo a Utilizar o FactoryMethod com Java
-____________________________
-
 */
 
 /* Classe Base de Veiculos */

@@ -8,12 +8,6 @@ Nome: Kaiki Kenji
 Data: 23/02/2024
 Descrição: Aplicação do padrão GoF - Criacional - FactoryMethod desenvolvido como exemplo na aula.
 --------------------------------------------------------------------------------------------------
-
-____________________________
-Controle de Versão:
-1.0.0 - Aprendendo a Utilizar o FactoryMethod com JavaScript
-____________________________
-
 */
 
 /* Classe Base de Veiculos */
