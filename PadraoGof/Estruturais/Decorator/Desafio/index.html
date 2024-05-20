@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Aluno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Central Aluno</h1>
+
+        <h2>Selecione o seu Curso:</h2>
+        <div class="inputs">
+            <label>
+                <input type="radio" name="curso" value="Desenvolvimento de Software Multiplataforma"
+                    data-curso="Desenvolvimento de Software Multiplataforma">
+                Desenvolvimento de Software Multiplataforma
+            </label>
+            <label>
+                <input type="radio" name="curso" value="Cosméticos" data-curso="Cosméticos">
+                Cosméticos
+            </label>
+            <label>
+                <input type="radio" name="curso" value="Gestão da Produção Industrial"
+                    data-curso="Gestão da Produção Industrial">
+                Gestão da Produção Industrial
+            </label>
+        </div>
+
+        <h2>Selecione o seu Periodo:</h2>
+        <div class="inputs">
+            <label>
+                <input type="radio" name="periodo" value="Manhã" data-periodo="Manhã">
+                Manhã
+            </label>
+            <label>
+                <input type="radio" name="periodo" value="Tarde" data-periodo="Tarde">
+                Tarde
+            </label>
+            <label>
+                <input type="radio" name="periodo" value="Noite" data-periodo="Noite">
+                Noite
+            </label>
+        </div>
+
+        <hr>
+        <h3>Serviços Opcionais</h3>
+
+        <h2>Internet com os planos:</h2>
+        <div class="inputs">
+            <label>
+                <input type="checkbox" name="internet-2gb" value="internet-2gb" data-internet="internet-2gb">
+                2gb (R$: 9.90)
+            </label>
+            <label>
+                <input type="checkbox" name="internet-5gb" value="internet-5gb" data-internet="internet-5gb">
+                5gb (R$: 19.90)
+            </label>
+            <label>
+                <input type="checkbox" name="internet-10gb" value="internet-10gb" data-internet="internet-10gb">
+                10gb (R$:29.90)
+            </label>
+        </div>
+
+        <h2>Estacionamento:</h2>
+        <div class="inputs">
+            <label>
+                <input type="checkbox" name="estacionamento-bicicleta" data-estacionamento="estacionamento-bicicleta">
+                Bicicleta (R$:30.00)
+            </label>
+            <label>
+                <input type="checkbox" name="estacionamento-moto" data-estacionamento="estacionamento-moto">
+                Moto (R$: 60.00)
+            </label>
+            <label>
+                <input type="checkbox" name="estacionamento-carro" data-estacionamento="estacionamento-carro">
+                Carro (R$:120.00)
+            </label>
+        </div>
+
+        <h2>Aluguel de Armário</h2>
+        <div class="inputs">
+            <label>
+                <input type="checkbox" name="armario-10-litros" value="armario-10-litros"
+                    data-armario="armario-10-litros">
+                10 Litros (R$:6.00)
+            </label>
+            <label>
+                <input type="checkbox" name="armario-20-litros" value="armario-20-litros"
+                    data-armario="armario-20-litros">
+                20 Litros (R$:10.00)
+            </label>
+            <label>
+                <input type="checkbox" name="armario-40-litros" value="armario-40-litros"
+                    data-armario="armario-40-litros">
+                40 Litros (R$:15.00)
+            </label>
+        </div>
+
+        <h2>Cursos Extras</h2>
+        <div class="inputs">
+            <label>
+                <input type="checkbox" name="cursos-extras-5" value="cursos-extras-5"
+                    data-curso-extras="cursosExtras-5">
+                Plataforma EAD 5 cursos (R$: 9.90)
+            </label>
+            <label>
+                <input type="checkbox" name="cursos-extras-15" value="cursos-extras-15"
+                    data-curso-extras="cursosExtras-15">
+                Plataforma EAD 15 cursos (R$: 19.90)
+            </label>
+            <label>
+                <input type="checkbox" name="cursos-extras-ilimitado" value="cursos-extras-ilimitado"
+                    data-cursos-extras="cursos-extras-ilimitado">
+                Plataforma EAD cursos ilimitados (R$: 24.90)
+            </label>
+        </div>
+
+        <br>
+        <div class="center">
+            <button onclick="montarAluno()" class="btn">Montar Aluno</button>
+        </div>
+    </main>
+
+    <div id="divAluno">
+        <h2>Total do Aluno:</h2>
+        <hr>
+        <p><b>R$: </b><span id="total-aluno">0.00</span></p>
+        <p><b>Descrição: </b> <span id="descricao-aluno">
+                Insira as informações acima para obter uma descrição ...
+            </span></p>
+
+    </div>
+
+    <script src="decorator.js"></script>
+
+</body>
+
+</html>
